@@ -1,0 +1,16 @@
+include: package:very_good_analysis/analysis_options.10.0.0.yaml
+
+analyzer:
+  errors:
+    invalid_annotation_target: ignore
+  exclude: ['**/**.g.dart', '**/**gr.dart']
+linter:
+  rules:
+    public_member_api_docs: false
+    lines_longer_than_80_chars: false
+    sort_pub_dependencies: false
+    eol_at_end_of_file: false
+    avoid_print: false
+    require_trailing_commas: false
+    avoid_catches_without_on_clauses: false
+    avoid_dynamic_calls: false
